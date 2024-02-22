@@ -72,6 +72,45 @@ router.post('/signin', (req, res) => {
     }
 });
 
+router.route('/movies')
+    .delete(authController.isAuthenticated, (req, res) => {
+        console.log(req.body);
+        res = res.status(200);
+        if (req.get('Content-Type')) {
+            res = res.type(req.get('Content-Type'));
+        }
+        var r = {status: 200, message: 'movie deleted'};
+        res.json(r);
+    })
+    .put(authJwtController.isAuthenticated, (req, res) => {
+        console.log(req.body);
+        res = res.status(200);
+        if (req.get('Content-Type')) {
+            res = res.type(req.get('Content-Type'));
+        }
+        var r = {status: 200, message: 'movie updated'};
+        res.json(r);
+    })
+    .get((req, res) => {
+        console.log(req.body);
+        res = res.status(200);
+        if (req.get('Content-Type')) {
+            res = res.type(req.get('Content-Type'));
+        }
+        var r = {status: 200, message: 'GET movies'}
+        res.json(r);
+    })
+    .post((req, res) => {
+        console.log(req.body);
+        res = res.status(200);
+        if (req.get('Content-Type')) {
+            res = res.type(req.get('Content-Type'));
+        }
+        var r = {status: 200, message: 'movie saved'}
+        res.json(r);
+    })
+
+
 router.route('/testcollection')
     .delete(authController.isAuthenticated, (req, res) => {
         console.log(req.body);
