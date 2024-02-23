@@ -48,7 +48,7 @@ You may use any of the standard packages included in Node.js or any third-party 
     ```
 ## Submissions
 - All source code should be stored on github (remember .gitignore for node_modules)
-- API needs to be deployed to heroku or render
+- API needs to be deployed to render
 - Create a readme.md at the root of your github repository with the embedded (markdown) to your test collection
     - Within the collection click the (…), share collection -> Embed
     - Static Button
@@ -65,11 +65,6 @@ You may use any of the standard packages included in Node.js or any third-party 
 - -2 movies route issues (not responding with correct response)
 - -2 missing postman requirements (-1 if just a minor miss)
 
-## Resources
-- http://nodejs.org
-- http://www.passportjs.org/docs/basic-digest/
-- https://devcenter.heroku.com/articles/heroku-cli 
-- https://devcenter.heroku.com/articles/config-vars 
-- https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction
+## Updated Postman Button w/ Environment "Marie - HW2":
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/1e37a1a45fd828a9cb10)
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/32580583-0969e66a-3d33-4bc8-802b-ebd5ac006272?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D32580583-0969e66a-3d33-4bc8-802b-ebd5ac006272%26entityType%3Dcollection%26workspaceId%3De6800d05-dff0-4df2-9ad0-6e4c14bf7e1f#?env%5BMarie%20-%20HW2%5D=W3sia2V5IjoiQXV0aFRva2VuIiwidmFsdWUiOiIwIiwiZW5hYmxlZCI6dHJ1ZSwidHlwZSI6ImRlZmF1bHQiLCJzZXNzaW9uVmFsdWUiOiJKV1QuLi4iLCJzZXNzaW9uSW5kZXgiOjB9LHsia2V5IjoiVU5JUVVFX0tFWSIsInZhbHVlIjoiMTIzNCIsImVuYWJsZWQiOnRydWUsInR5cGUiOiJkZWZhdWx0Iiwic2Vzc2lvblZhbHVlIjoiMTIzNCIsInNlc3Npb25JbmRleCI6MX1d)
