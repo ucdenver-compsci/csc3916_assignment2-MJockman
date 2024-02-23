@@ -109,7 +109,11 @@ router.route('/movies')
         var r = {status: 200, message: 'movie saved'}
         res.json(r);
     })
-
+    .all((req, res) => {
+        // Any other HTTP Method
+        // Returns a message stating that the HTTP method is unsupported.
+        res.status(405).send({ message: 'HTTP method not supported.' });
+    });
 
 router.route('/testcollection')
     .delete(authController.isAuthenticated, (req, res) => {
